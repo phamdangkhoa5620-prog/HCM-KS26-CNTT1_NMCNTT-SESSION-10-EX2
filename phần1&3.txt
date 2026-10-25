@@ -1,0 +1,22 @@
+Phần 1. Phân tích cấu trúc Heading
+Cây cấu trúc SRS được thiết kế như sau:
+- Heading 1: Mục lục, Phụ lục.
+- Heading 2: 10 tiêu đề chính:
+  1. Giới thiệu
+  2. Tổng quan hệ thống
+  3. Đặc điểm người dùng
+  4. Yêu cầu chức năng
+  5. Yêu cầu dữ liệu
+  6. Quy tắc nghiệp vụ
+  7. Yêu cầu giao diện
+  8. Yêu cầu phi chức năng
+  9. Giả định và ràng buộc
+  10. Kiểm thử và tiêu chí nghiệm thu
+- Heading 3: Các mục con chi tiết trong từng phần.
+Phần 3. Kiểm thử lỗi lọc tên bằng TRIM
+Nếu nhìn thấy tên trong Excel nhưng lọc không ra kết quả, nguyên nhân có thể là khoảng trắng thừa ở đầu hoặc cuối tên.
+1. Thêm cột HoTen_ChuanHoa.
+2. Nhập công thức tại ô G2:
+=TRIM(B2)
+3. Kéo công thức xuống toàn bộ danh sách.
+4. Lọc theo cột tên đã chuẩn hóa.
